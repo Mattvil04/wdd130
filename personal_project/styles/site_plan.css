@@ -7,8 +7,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #3a86ff ;
   --secondary-color: #8338ec ;
-  --accent1-color: black;
-  --accent2-color: white;
+  --accent1-color: #FB5607;
+  --accent2-color: blue;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "DM Seri Display";

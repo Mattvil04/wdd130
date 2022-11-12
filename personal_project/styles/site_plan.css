@@ -66,6 +66,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
   padding: 1em;
+
 }
 .colors {
   width: 100%;
@@ -173,3 +174,30 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.logo{
+  width: 120px;
+
+ }
+footer a :hover{
+  color: blanchedalmond;
+}
+footer a{
+  color: blueviolet;
+  text-decoration: none;}
+
+footer{
+  background-color:black ;
+  color:white;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;}
+  footer p{
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;}
+    footer .social img{
+      padding-top: 15px;
+}      

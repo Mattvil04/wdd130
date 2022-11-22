@@ -207,6 +207,47 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+.subpage-grid{
+    height: 1600px;
+    max-height: 2600;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+#content01{
+    padding-top: 75px;
+}
+#content01 h2{
+    padding: 20px;
+    color: midnightblue;
+}
+#head{
+    color: darkblue;
+    margin-left: 150px;
+    
+}
+.river1{
+    margin: 30px;
+    justify-content:space-between ;
+    display: flex;
+    background-color:cadetblue ;
+}
+.river2{
+    margin: 30px;
+    display: flex;
+    justify-content:space-between ;
+    background-color: beige;
+}
+.river3{
+    margin: 30px;
+    justify-content:space-between ;
+    display: flex;
+    background-color: lightgreen;
+}
+.subpage-grid img{
+    width: 400px;
+    padding: 40px;
+    
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

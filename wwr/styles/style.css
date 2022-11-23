@@ -208,8 +208,8 @@ main section img{
     transform: scale(1.1);
 }
 .subpage-grid{
-    height: 1600px;
-    max-height: 2600;
+    height: 1750px;
+    max-height: 3000;
     padding: 20px;
     grid-template-columns: 1fr 1fr;
 }
@@ -217,12 +217,12 @@ main section img{
     padding-top: 75px;
 }
 #content01 h2{
-    padding: 20px;
+    padding: 30px;
     color: midnightblue;
 }
 #head{
     color: darkblue;
-    margin-left: 150px;
+    margin-left: 195px;
     
 }
 .river1{

@@ -1,0 +1,135 @@
+#content{
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+main section{
+        text-align: center;
+}
+    
+body{
+    background-color: white;
+    font-family: 'Arial', 'Verdana','Helvetica', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+}
+header{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+    
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link{   
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+    
+   
+footer a :hover{
+    color: blanchedalmond;
+}
+    
+footer a{
+    color: blueviolet;
+    text-decoration: none;
+}
+    
+footer{
+    background-color:black ;
+    color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+.home-title{
+    color:orangered;
+    font-family:'Copperplate', 'Lucida Console','Monaco', fantasy;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+.logo{
+    width: 100px;
+}
+    
+    
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}    
+footer .social img{
+    padding-top: 15px;
+}      
+    
+main section img{
+    box-sizing: border-box;
+    
+}
+    
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+    
+#background{
+    height: 725px;
+    background-color:#6f7364 ;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+ 
+    @media screen and (max-width: 900px) {
+        #hero, .home-grid {
+            display: block;
+            height: auto;
+        }
+        nav, footer {
+            flex-direction: column;
+        }
+        nav a {
+            display: block;
+            padding: 15px;
+        }
+        #hero {
+            margin-top: 0;
+        }
+        .home-title {
+            font-size: 25px;
+            color: #6f7364;
+        }
+        #background {
+            display: none;
+        }
+        footer {
+            margin-top: 25px;
+        }
+    }
+    

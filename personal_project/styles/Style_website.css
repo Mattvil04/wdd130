@@ -210,30 +210,63 @@ main section img{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:rgb(46, 134, 206);;}
-    @media screen and (max-width: 900px) {
-        #hero, .home-grid {
-            display: block;
-            height: auto;
-        }
-        nav, footer {
-            flex-direction: column;
-        }
-        nav a {
-            display: block;
-            padding: 15px;
-        }
-        #hero {
-            margin-top: 0;
-        }
-        .home-title {
-            font-size: 25px;
-            color: #6f7364;
-        }
-        #background {
-            display: none;
-        }
-        footer {
-            margin-top: 25px;
-        }
-    }
-    
+#subpage-hero-img{
+    width: 40%;
+    height: 30%;
+    padding-bottom: 25px;
+    padding: 20px;
+}
+
+#subpage-hero-msg h1{
+    font-size: 1cm;
+    text-align: center;
+    margin-top: 175px;
+}
+
+#subpage-hero {
+    display: flex;
+    justify-content:space-between ;
+    background-color:dodgerblue;
+    padding: 20px;
+    padding-top: 30px;
+}
+.subpage-grid{
+    margin-top: 720px;
+}
+.subpage-grid h1{
+    padding-bottom: 45px;
+}
+.content02{
+    padding: 50px;
+    background-color: bisque;
+}
+.content02 p{
+    padding: 10px;
+}
+.content02 img{
+    width: 200px;
+    padding: 20px;
+}
+.content02 h2{
+    padding-bottom: 45px;
+}
+#instructions{
+    padding-top: 30px;
+}
+.apply{
+    font-size: 28px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: blue
+}   
+.apply:hover {
+    background-color: blue;
+    color: aqua;
+    text-align: center;
+}
+.apply-box{
+    padding-bottom: 20px;
+}

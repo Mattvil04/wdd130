@@ -1,3 +1,8 @@
+body{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 4%;
+}
 * {box-sizing: border-box}
 
 /* Add padding to containers */
@@ -55,6 +60,7 @@ a {
 /* Bordered form */
 form {
     border: 3px solid #f1f1f1;
+    background-color:lightyellow;
   }
   
   /* Full-width inputs */
@@ -98,7 +104,7 @@ form {
   
   /* Avatar image */
   img.avatar {
-    width: 40%;
+    width: 20%;
     border-radius: 50%;
   }
   

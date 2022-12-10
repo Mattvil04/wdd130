@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans:ital,wght@1,200&display=swap');
+:root {
+    --heading-font: "DM Seri Display";
+    --paragraph-font: Work Sans, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+p{
+    font-family: var(--paragraph-font);
+    
+
+}
 #content{
     max-width: 1600px; 
     margin: 0 auto;
@@ -217,7 +230,7 @@ main section img{
     padding: 20px;
 }
 
-#subpage-hero-msg h1{
+#subpage-hero-msg h2{
     font-size: 1cm;
     text-align: center;
     margin-top: 175px;
@@ -226,7 +239,7 @@ main section img{
 #subpage-hero {
     display: flex;
     justify-content:space-between ;
-    background-color:dodgerblue;
+    background-color:#3a86ff ;
     padding: 20px;
     padding-top: 30px;
 }
@@ -238,10 +251,11 @@ main section img{
 }
 .content02{
     padding: 50px;
-    background-color: bisque;
+    background-color: #8338ec;
 }
 .content02 p{
     padding: 10px;
+    color: black;
 }
 .content02 img{
     width: 200px;
@@ -269,4 +283,33 @@ main section img{
 }
 .apply-box{
     padding-bottom: 20px;
+}
+#subpage-hero2-img{
+    width: 400px;
+    height: 400px;  
+}
+#subpage-hero2{
+    display: flex;
+   
+    width: 1050px;
+    height: 400px;
+    padding-top: 25px;
+    padding-left: 150px;
+
+}
+#subpage-hero-msg2{
+    font-size: 1cm;
+    text-align: center;
+    background-color:darkmagenta;
+}
+.home-title2{
+    color:#ffbe0b;
+    font-family:'Copperplate', 'Lucida Console','Monaco', fantasy;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.content03 h2{
+    padding-bottom: 45px;
+    font-size: 1cm;
 }

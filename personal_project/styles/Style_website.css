@@ -17,7 +17,7 @@ p{
 }
 nav a{
     text-align: center;
-    color: black;
+    color: #000000;
     text-decoration: none;
     padding: 35px;  
     font-size: 1cm;
@@ -30,7 +30,7 @@ main {
     
 }
 #text{
-    background-color:blanchedalmond;
+    background-color:#f2b9e4;
     line-height: 1.5em
 }
 section{
@@ -42,20 +42,19 @@ section{
     padding-top: 145px;
 }
 .background{
-    background-color: aquamarine;
+    background-color: #8338ec;
     width: 500px;
     border-radius: 15px;
 }
 body{
-    background-color: white;
     font-family: 'Arial', 'Verdana','Helvetica', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 .book:hover{
-    background-color: blue;
-    color: aqua;
+    background-color: #288cd7;
+    color: #f2b9e4;
     text-align: center;
 }
 .book{
@@ -64,8 +63,8 @@ body{
     margin-top: 50px;
     border-radius: 5px;
     text-decoration: none;
-    color: black;
-    background-color: blue
+    color: #000000;
+    background-color: #288cd7
     
 }
 .button-box{
@@ -86,7 +85,7 @@ body{
 }
 #hero-msg h4{
     text-align: center;
-    color: white;
+    color: #f2b9e4;
     margin-top: 350px;
     font-size: 1cm;
 }
@@ -104,7 +103,7 @@ h2{
     margin: 0;
 }
 header{
-    background-color:rgb(46, 134, 206);
+    background-color:#288cd7;
     display: grid;
     grid-template-columns: 150px auto;
     
@@ -120,23 +119,23 @@ nav {
     align-self: center;
 }
 nav a:hover{
-    background-color: antiquewhite;
-    color: black;
+    background-color: #f2b9e4;
+    color: #000000;
 }
     
    
 footer a :hover{
-    color: blanchedalmond;
+    color: #f2b9e4;
 }
     
 footer a{
-    color: blueviolet;
+    color: #8338ec;
     text-decoration: none;
 }
     
 footer{
-    background-color:black ;
-    color:white;
+    background-color:#000000;
+    color:#f2b9e4;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -145,7 +144,7 @@ footer{
 }
     
 .home-title{
-    color:cyan;
+    color:#f2b9e4;
     font-family:'Copperplate', 'Lucida Console','Monaco', fantasy;
     font-size: 2em;
     margin-top: 10px;
@@ -174,15 +173,10 @@ main section img{
     
 }
 
-#background{
-    height: 725px;
-    background-color:#6f7364 ;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
+
  /* Dropdown Button */
  .dropbtn {
-    background-color:rgb(46, 134, 206);
+    background-color:#288cd7;
     color: black;
     padding: 16px;
     font-size: 1cm;
@@ -201,31 +195,31 @@ main section img{
     display: none;
     position: absolute;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px #000000;
     z-index: 1;
 }
   
   /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #000000;
     padding: 12px 16px;
     text-decoration: none;
-    background-color: #f1f1f1;
+    background-color: #f2b9e4;
     display: block;
     font-size: 16px;
 }
   
   /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #8338ec;}
   
   /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color:rgb(46, 134, 206);;}
+.dropdown:hover .dropbtn {background-color:#288cd7;;}
 #subpage-hero-img{
     width: 40%;
-    height: 30%;
+    height: 500px;
     padding-bottom: 25px;
     padding: 20px;
 }
@@ -239,7 +233,7 @@ main section img{
 #subpage-hero {
     display: flex;
     justify-content:space-between ;
-    background-color:#3a86ff ;
+    background-color:#8338ec ;
     padding: 20px;
     padding-top: 30px;
 }
@@ -251,11 +245,11 @@ main section img{
 }
 .content02{
     padding: 50px;
-    background-color: #8338ec;
+    background-color: #f2b9e4;
 }
 .content02 p{
     padding: 10px;
-    color: black;
+    color: #000000;
 }
 .content02 img{
     width: 200px;
@@ -273,12 +267,12 @@ main section img{
     margin-top: 50px;
     border-radius: 5px;
     text-decoration: none;
-    color: black;
-    background-color: blue
+    color: #000000;
+    background-color: #288cd7;
 }   
 .apply:hover {
-    background-color: blue;
-    color: aqua;
+    background-color: #f2b9e4;
+    color: #8338ec;
     text-align: center;
 }
 .apply-box{
@@ -300,10 +294,10 @@ main section img{
 #subpage-hero-msg2{
     font-size: 1cm;
     text-align: center;
-    background-color:darkmagenta;
+    background-color: #8338ec;
 }
 .home-title2{
-    color:#ffbe0b;
+    color:#f2b9e4;
     font-family:'Copperplate', 'Lucida Console','Monaco', fantasy;
     font-size: 2em;
     margin-top: 10px;
